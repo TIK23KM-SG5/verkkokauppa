@@ -50,16 +50,14 @@ CREATE TABLE order_line(
 
 
 INSERT INTO product_category VALUES 
-('Kategoria_1', 'Kategoria 1 kuvaus'),
-('Kategoria_2', 'Kategoria 2 kuvaus'),
-('Kategoria_3', 'Kategoria 3 kuvaus'),
-('Kategoria_4', 'Kategoria 4 kuvaus'),
-('Kategoria_5', 'Kategoria 5 kuvaus');
+('Trees', 'Christmas trees'),
+('Costumes', 'Different kind of christmas costumes'),
+('Decor', 'Christmas gift decorations')
+
 
 
 INSERT INTO product (product_name, price, image_url, category) VALUES 
-('Tuote 1', '19,90', NULL, 'Kategoria_1'),('Tuote 2', '29,90', NULL, 'Kategoria_1'), ('Tuote 3', '24,90', NULL, 'Kategoria_1'), ('Tuote 4', '11,90', NULL, 'Kategoria_1'), ('Tuote 5', '17,90', NULL, 'Kategoria_1'),
-('Tuote 1', '19,90', NULL, 'Kategoria_2'),('Tuote 2', '29,90', NULL, 'Kategoria_2'), ('Tuote 3', '24,90', NULL, 'Kategoria_2'), ('Tuote 4', '11,90', NULL, 'Kategoria_2'), ('Tuote 5', '17,90', NULL, 'Kategoria_2'),
-('Tuote 1', '19,90', NULL, 'Kategoria_3'),('Tuote 2', '29,90', NULL, 'Kategoria_3'), ('Tuote 3', '24,90', NULL, 'Kategoria_3'), ('Tuote 4', '11,90', NULL, 'Kategoria_3'), ('Tuote 5', '17,90', NULL, 'Kategoria_3'),
-('Tuote 1', '19,90', NULL, 'Kategoria_4'),('Tuote 2', '29,90', NULL, 'Kategoria_4'), ('Tuote 3', '24,90', NULL, 'Kategoria_4'), ('Tuote 4', '11,90', NULL, 'Kategoria_4'), ('Tuote 5', '17,90', NULL, 'Kategoria_4'),
-('Tuote 1', '19,90', NULL, 'Kategoria_5'),('Tuote 2', '29,90', NULL, 'Kategoria_5'), ('Tuote 3', '24,90', NULL, 'Kategoria_5'), ('Tuote 4', '11,90', NULL, 'Kategoria_5'), ('Tuote 5', '17,90', NULL, 'Kategoria_5');
+('Green Christmas Tree', '49.90', NULL, 'Trees'),('Red Christmas Tree', '49.90', NULL, 'Trees'), ('White Christmas Tree', '49.90', NULL, 'Trees'),
+('Classic Santa costume', '29.90', NULL, 'Costumes'), ('Grinch Santa costume', '29.90', NULL, 'Costumes'), ('Christmas Elf costume', '29.90', NULL, 'Costumes'), 
+('Wrapping paper', '4.90', NULL, 'Decor'),('Wrapping string', '4.90', NULL, 'Decor'), ('Gift bag', '4.90', NULL, 'Decor')
+
